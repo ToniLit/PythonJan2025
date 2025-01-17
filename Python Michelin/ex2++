@@ -1,0 +1,36 @@
+# baza de date
+EUR=4.97
+USD=4.87
+HUF=0.012
+PLN=1.16
+ 
+# Input_data
+amnt=100
+# amnt =int(input("what is your price?\n :"))
+# amnt = int(amnt)
+# EUR = int(EUR)
+# USD = int(USD)
+
+# Calculation
+currency = input ("please insert currency\n")
+currency= currency.upper()
+# cu comanda de mai sus schimbam formatul scrisului. vezi scting unction
+
+while currency !="EUR" and currency !="USD"and currency !="HUF"and currency !="PLN":
+    currency = input ("please insert currency\n")
+    currency= currency.upper()
+
+if currency == "EUR" or currency == "eur":
+    print ("Total in EUR:",amnt/EUR) 
+elif currency == "USD":
+    print ("Tota in USD:", amnt/USD)
+elif currency =="HUF":
+    print ("Total in HUF:",amnt/HUF)
+elif currency =="PLN":
+    print ("Total in PLN:", amnt/PLN)
+
+
+# Vizualizare
+
+
+
